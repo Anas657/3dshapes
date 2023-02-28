@@ -1,0 +1,39 @@
+#header {
+border: solid 1px purple;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+
+}
+
+#header .inner{
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 100px;
+}
+
+#header .Navigation{
+}
+
+#header .Navigation ul{
+display: flex;
+align-items: center;
+list-style: none;
+}
+
+#header .Navigation li a{
+display: block;
+padding: 0 10px;
+text-decoration: none;
+
+}
+
+#header .Navigation #button{
+/* border: solid 2px red; */
+display: block;
+padding: 0, 40px, 0, 40px;
+margin: 0, 40px, 0, 40px;
+
+}
